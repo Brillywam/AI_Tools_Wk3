@@ -32,3 +32,29 @@ This notebook demonstrates how to build and evaluate a Convolutional Neural Netw
 - Applies standard preprocessing and data exploration.
 - Provides a practical example of image classification with CNNs.
 
+# 📝 Task 3: NLP Analysis of Product Reviews
+
+This notebook demonstrates how to perform a comprehensive analysis of a dataset of product reviews, including sentiment analysis, named entity recognition (NER), and statistical insights.
+
+## Overview
+- 📦 Install Required Libraries: Installs the necessary libraries for natural language processing, data manipulation, and visualization.
+- 🛠 Import Libraries: Imports the required libraries and loads the spaCy English language model.
+- 📦 Load and Prepare Data: Loads the training and test data from CSV files, displays basic information about the datasets, and preprocesses the text data.
+- 🧠 Named Entity Recognition (NER) Implementation: Implements functions to extract named entities and potential product names/brands from the text using spaCy.
+- 📊 Sentiment Analysis Implementation: Implements a rule-based sentiment analysis function using TextBlob and custom rules.
+- 📊 Results Analysis and Visualization: Combines the NER and sentiment analysis results into a comprehensive dataframe, and visualizes the sentiment distribution, polarity score distribution, and confidence score distribution.
+- 📊 Statistical Analysis and Visualization: Calculates and displays the total unique products and brands found, as well as the top 10 most mentioned products and brands.
+- 📝 Detailed Output Examples: Provides detailed analysis examples for the first 5 reviews, including the original text, sentiment, and extracted entities.
+- 🗄 Save Results: Saves the comprehensive results dataframe to a CSV file and creates a summary report with key statistics and insights.
+
+## Key Features
+- Uses spaCy for named entity recognition and custom rules for product/brand extraction.
+- Implements a rule-based sentiment analysis approach using TextBlob and custom rules.
+- Provides comprehensive data analysis and visualization of the results.
+- Saves the analysis results to a CSV file and generates a summary report.
+
+
+
+
+
+
